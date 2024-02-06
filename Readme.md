@@ -3,6 +3,7 @@
 ## mvn clean 
 ## mvn package 
 
+## java src/main/java/dev/rominaruiz/myfirstapp/App.java
 
 # dependencias:
 ## Hamcrest
