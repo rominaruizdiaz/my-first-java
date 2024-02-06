@@ -12,12 +12,16 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        PrimitiveData data = new PrimitiveData("Donald");
 
-        data.setName("Mary Poppins");
+        Person nicolas = new Person("Nicolas", "Albarenque", 123, 2001);
+        Person romina = new Person("Romina", "Ruiz", 453, 2004);
 
-        data.printNameReversed();
-        
-        System.out.println(data.getName());
+        System.out.println("Datos de Nicolas:");
+        nicolas.printAtributes();
+
+        System.out.println(); // Separador
+
+        System.out.println("Datos de Romina:");
+        romina.printAtributes();
     }
 }
