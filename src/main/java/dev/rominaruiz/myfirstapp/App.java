@@ -13,8 +13,8 @@ public final class App {
      */
     public static void main(String[] args) {
 
-        Person nicolas = new Person("Nicolas", "Albarenque", 123, 2001);
-        Person romina = new Person("Romina", "Ruiz", 453, 2004);
+        Person nicolas = new Person("Nicolas", "Albarenque", 123, 2001, "Argentina", 'H');
+        Person romina = new Person("Romina", "Ruiz", 453, 2004, "Paraguay", 'M');
 
         System.out.println("Datos de Nicolas:");
         nicolas.printAtributes();
